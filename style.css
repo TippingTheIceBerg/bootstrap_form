@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --formBG: rgb(0 0 0/.7);
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bootstrap\ backdrop.webp) center/contain no-repeat;
+    height: 100vh;
+    color: white;
+
+}
+.formContainer{
+    background-color: var(--formBG);
+    padding: 100px;
+    border-radius: 10px;
+}
+.form__radioLegend{
+    color: white;
+}
